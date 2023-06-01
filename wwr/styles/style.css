@@ -62,7 +62,7 @@ main section {
     background-color: #99d98c;
     display: grid;
     grid-column: 1/11;
-    grid-row: 4/auto;
+    grid-row: 4/9;
 }
 
 body {
