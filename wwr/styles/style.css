@@ -240,6 +240,39 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.rivers {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    
+}
+
+.salmon-river {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.desolation-canyon {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 50px;
+}
+
+.grand-canyon {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 50px;
+}
+
+img, p, h3 {
+    display: inline;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
