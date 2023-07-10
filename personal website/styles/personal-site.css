@@ -147,7 +147,7 @@ main img {
 main {
     display: grid;
     grid-template-columns: 10% 1fr 5% 1fr 5% 1fr 10%;
-    grid-row: 10% 1fr 5% 1fr 5% 1fr 10%;
+    
 }
 
 .card-img {
@@ -178,7 +178,7 @@ main {
     grid-column: 2/7;
     grid-row: 2/3;
     grid-template-columns: 1fr 2fr;
-    grid-row: 10% 90%;
+    
 }
 
 .cave-card-img {
@@ -193,7 +193,7 @@ main {
     grid-column: 2/7;
     grid-row: 4/5;
     grid-template-columns: 1fr 2fr;
-    grid-row: 10% 90%;
+    
 }
 
 .city-terrain-card{
@@ -202,5 +202,5 @@ main {
     grid-column: 2/7;
     grid-row: 6/7;
     grid-template-columns: 1fr 2fr;
-    grid-row: 10% 90%;
+    
 }
